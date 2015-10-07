@@ -1,0 +1,52 @@
+/*教程页面*/
+body {padding-top:89px; font-family: '微软雅黑';}
+.clear {clear:both;height:0px;}
+.header {position:fixed; left:0;top:0; width:100%; z-index:10; background-color:#2ddecf;}
+
+.content {width: 880px;}
+
+.headline {position:relative; margin: 20px auto; color:#000;}
+.headline h1 {font-size:36px; line-height: 60px; font-weight:normal;}
+.headline .subtitle {font-size:16px; line-height: 35px; color:#323232;}
+.headline .subtitle a {color:#3bc280;}
+.headline .subtitle a:hover {text-decoration: underline;}
+.headline .link-all-tutorials {display:block; position: absolute; top: 20px; right: 0px; font-size: 16px; color: #1d89e4; background:url(http://res.taig.com/site/taig/image/icon-tutorial2.png) left 0 no-repeat; _background:none; text-indent:28px;}
+
+.section {margin:20px auto; clear:both;}
+.section .paragraph {clear: both; margin-bottom: 20px;}
+.section .sequence {width:50px; float: left; font-size:64px; line-height: 64px; color:#9c9c9c;}
+.section .section-content {width:800px; float: left; padding-top:3px;}
+.section .section-left .section-content {width: 380px;}
+.section .section-content p {font-size: 16px; color: #333; line-height: 30px;}
+.section .section-content p.one-line {line-height: 60px;}
+.section .section-content p.img {text-align: center;}
+.section .section-content p.gray {color:#848484; margin-top:10px;}
+.section .section-content p.gray-bg {color:#2e2e2e; background:#e4e4e4; line-height:30px; padding-left:8px;}
+.section .btn-download {display:inline-block; width:110px; height:56px; margin: 10px 0; text-align: left; padding-left: 55px; line-height: 58px; color:#fff; background:url(http://res.taig.com/site/taig/image/icon-tutorial2.png) no-repeat left top; _background:none; overflow: hidden;}
+.section .btn-download-taigpro {width:183px; background-position: 25px -45px; background-color: #1e88e5;}
+.section .btn-download-win {padding-left: 70px; background-position: 40px -102px; background-color: #1eb4e5;}
+.section .btn-download-mac {padding-left: 70px; background-position: 40px -168px; background-color: #32c37e;}
+.section .btn-download-taigpro:hover {background-color:#4fa2eb;}
+.section .btn-download-win:hover {background-color:#20bef1;}
+.section .btn-download-mac:hover {background-color:#35d086;}
+.section .btn-download-win:active {background-color:#1ca8d6;}
+.section .btn-download-mac:active {background-color:#2eb575;}
+.section a.link {color:#32c37e;}
+
+.section .section-left {width:50%; float:left;}
+.section .section-right {width:49%; float:right;}
+
+.footer-left-share{position:fixed;_position:absolute;top:50%;margin-top:-80px;right:0;_right:15px;z-index:2}
+.footer-left-share li{width:80px;height:80px;border:0}
+.footer-left-share li a{border:0}
+.footer-left-share li img{border:0}
+.footer-left-share .li02{_margin-top:-4px}
+
+/**IE6**/
+*html {overflow-y:auto;}
+*html .header {position:absolute;}
+*html .body {padding-top:0px;}
+*html .footer {position:static;}
+
+
+

@@ -1,0 +1,52 @@
+/*教程页面*/
+html{_width:100%; height:100%;}
+body{font-family:'Microsoft Yahei'; height:100%;}
+ul,li{list-style:none}
+a{text-decoration:none}
+a:active,a:visited{outline:0}
+.wrap {position:relative; min-height: 100%;}
+.header{width:100%;background-color:#2ddecf}
+.content{margin-top:0px;padding-bottom:90px;padding-top:0px;overflow:hidden}
+.detail{margin-top:16px;padding-bottom:16px}
+.detail p.new-version, .detail p.beta-version {background-image:url(http://res.taig.com/site/taig/image/icon-new.png); background-position:left center; background-repeat:no-repeat;}
+.detail p.beta-version {background-image:url(http://res.taig.com/site/taig/image/icon-beta.png);}
+.detail p.new-version a, .detail p.beta-version a {color:#3bc280;}
+.detail p.new-version a:hover, .detail p.beta-version a:hover {text-decoration: underline;}
+h2 {margin:10px 25px;}
+h2 span {display: inline-block; height: 40px; line-height: 42px; font-size: 18px; font-weight: normal; color:#fff; cursor: default; vertical-align: top;}
+h2 span.title {width:265px; text-indent:80px; background:url(http://res.taig.com/site/taig/image/icon-tutorial2.png) no-repeat 50px -110px; _background:none;}
+h2 span.btn-toggle {width:110px; margin-left:2px; font-size:12px; text-align:center; cursor:pointer;}
+.mac h2 span {background-color:#32c37e; background-position: 50px -175px;}
+.mac h2 span.btn-toggle:hover {background-color:#35d086;}
+.win h2 span {background-color:#1eb4e5;}
+.win h2 span.btn-toggle:hover {background-color:#20bef1;}
+.log-invisible .btn-toggle .txt-show {display:inline;}
+.log-invisible .btn-toggle .txt-hidden {display:none;}
+.log-invisible .toggle-content {display:none;}
+.log-visible .btn-toggle .txt-show {display:none;}
+.log-visible .btn-toggle .txt-hidden {display:inline;}
+.log-visible .toggle-content {display:block;}
+.update-log-title{margin:40px auto;font-size:36px;text-align:left;padding-left:30px;;;font-weight:normal;}
+.update-log-head{background-color:#efeeeb;text-align:left;font-size:16px;padding-left:30px;;}
+.update-log-version{font-size:22px}
+.update-log-content{text-align:left;margin-bottom:30px;font-size:16px;line-height:16px;padding-left:30px;;}
+.update-log-content li{margin:10px 10px;list-style:disc inside;line-height:1.5em}
+.footer-left-share{position:fixed;_position:absolute;top:50%;margin-top:-80px;right:0;z-index:2}
+.footer-left-share li{width:80px;height:80px;border:0}
+.footer-left-share li a{border:0}
+.footer-left-share li img{border:0}
+.footer-left-share .li02{_margin-top:-4px}
+.log-footer{position:absolute; _position:static; bottom:0; width:100%; background:#676767;}
+/**IE6**/
+* html body{padding-top:0}
+* html .update-log-con{position:static}
+* html .update-log-inner{position:static}
+* html .screen{position:static}
+* html .screen .screen-con{position:static;height:500px;margin:0 auto;padding:50px 0}
+* html .screen .screen-inner{position:static;top:0}
+* html .screen .screen-info{margin-top:0}
+* html .tutor-3 .screen-info{position:static}
+* html .dots{display:none}
+
+
+

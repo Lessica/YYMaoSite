@@ -1,0 +1,30 @@
+body,div,ul,li,a,img,br,h1,input,span,em,dl,dt,dd,h1,p{margin:0;padding:0}
+ul,li{list-style:none}
+a{text-decoration:none;outline:none;}
+em{font-style:normal}
+img{border:none;}
+.clear{width:0;clear:both}
+body{overflow-x:hidden;font-family:'Microsoft Yahei';font-size:12px;color:#3498db;line-height:22px;background:#f5f5f5;_width:100%;_position:relative}
+.header{position:relative;background-color:#000;height:89px;overflow:hidden;width:100%;transition:background-color 1s}
+.header-bg{position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;background:#1ba6a3;opacity:50}
+.header-container{position:absolute;width:100%;height:100%;left:0;top:0;z-index:2}
+.header-con{position:relative;background:url('http://res.taig.com/site/taig/image/header.png') no-repeat;_background-image:url('http://res.taig.com/site/taig/image/header-ie6.png');padding:0 37px 0 50px;width:951px;margin:0 auto;clear:both;overflow:hidden}
+.header-con .red-dot{position:absolute;top:35px;right:119px;width:7px;height:7px;font-size:0px;cursor:default;background:url('http://res.taig.com/site/taig/image/icon-red-point.png') no-repeat;}
+.logo,.nav{display:inline-block;*display:inline;zoom:1;height:90px;line-height:90px}
+.logo{width:183px;background:url('http://i1.tietuku.com/3829c65e74c89519.png') no-repeat left center;float:left;font-size:20px;color:#fff;_background:url('http://res.taig.com/site/taig/image/logo-ie6.png') no-repeat left center}
+.nav{float:right;height:60px;line-height:60px;padding:1px 0 4px}
+.nav a{font-size:14px;color:#fff;margin:3px 0 0;display:inline-block;*display:inline;zoom:1;width:80px;height:80px;line-height:80px;vertical-align:middle;text-align:center}
+.nav a.active,.nav a:hover{color:#37c292}
+.nav-line{visibility:hidden;position:absolute;top:1px;background:url(http://res.taig.com/site/taig/image/nav-line.png);width:80px;height:3px;font-size:0;overflow:hidden}
+.nav a.lang{display:inline-block;height:16px;line-height:16px;text-indent:10px;font-size:12px;color:#37c292}
+.content{width:1000px;margin:0 auto;padding-top:20px;clear:both;overflow:hidden;}
+.footer{background:#676767;color:#e8e8e8;text-align:center;padding:20px 0;font-size:12px;line-height:25px}
+.footer a{color:#e8e8e8}
+.layer-con{display:none;width:320px;padding:40px 0;position:fixed;left:50%;margin-left:-160px;top:250px;z-index:10000;text-align:center}
+.layer-con .layer-icon{width:65px;height:65px;margin:0 auto;background:url('http://res.taig.com/site/taig/image/post-icon.png') no-repeat;_background-image:url('http://res.taig.com/site/taig/image/post-icon-ie6.png')}
+.layer-con .success{background-position:center top}
+.layer-con .error{background-position:center -65px}
+.layer-con .layer-msg{margin:0 auto;text-align:center;color:#fff;font-size:20px;line-height:30px}
+.layer-con-bg{position:absolute;top:0;right:0;bottom:0;left:0;background:#000;z-index:-1;opacity:.8}
+.layer-shade{width:100%;position:absolute;left:0;top:0;z-index:998}
+.nav .platform-en{width: 160px}
